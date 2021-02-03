@@ -1,0 +1,17 @@
+ # in database.yml
+ # this defines the database for the development environment (default environment)
+# development:
+#  adapter: postgresql 
+#  database: bookmarks-development
+
+ # same but for test env
+
+development:
+  adapter: postgresql
+  database: bookmarks-development
+test:
+  adapter: postgresql
+  database: bookmarks-test
+production:
+  adapter: postgresql
+  database: bookmarks-production
