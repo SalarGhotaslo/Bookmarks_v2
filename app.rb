@@ -7,7 +7,7 @@ require 'bcrypt'
 class Bookmarks < Sinatra::Base
   register Sinatra::ActiveRecordExtension
   get '/' do
-    erb(:index)
+   p "Hello Salar!"
   end
 
   get '/bookmarks' do
